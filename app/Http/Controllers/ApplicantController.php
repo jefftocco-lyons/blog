@@ -2,7 +2,7 @@
 
 namespace App\Http\Controllers;
 
-use App\models\Applicant;
+use App\Models\Applicant;
 use Illuminate\Http\Request;
 
 class ApplicantController extends Controller

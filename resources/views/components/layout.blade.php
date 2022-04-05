@@ -16,13 +16,14 @@
         <nav class="md:flex md:justify-between md:items-center">
             <div>
                 <a href="/">
-                    <img src="/images//bullsnake.jpg" alt="Laracasts Logo" width="100" height="100" class="rounded-xl">
+                    Bullsnake Inc
+                    {{-- <img src="/images//bullsnake.jpg" alt="Laracasts Logo" width="100" height="100" class="rounded-xl"> --}}
                 </a>
             </div>
             <div class="w-full flex-grow lg:flex lg:items-center lg:w-auto hidden mt-2 lg:mt-0 bg-white lg:bg-transparent text-black p-4 lg:p-0 z-20" id="nav-content">
                 <ul class="list-reset lg:flex justify-end flex-1 items-center">
                   <li class="mr-3">
-                    <a class="inline-block py-2 px-4 text-black font-bold no-underline" href="landing">Home</a>
+                    <a class="inline-block py-2 px-4 text-black no-underline" href="landing">Home</a>
                   </li>
                   <li class="mr-3">
                     <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="about">About</a>
