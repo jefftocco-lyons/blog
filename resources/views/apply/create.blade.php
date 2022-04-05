@@ -75,7 +75,7 @@
                         <x-form.textarea name="questions_for_employer" type="questions_for_employer"/>
                     </div>
                 </div>
-                <p>*Note for later put consent checkbox here for driving record pull*</p>
+                <p class="text-sm">By pressing "Submit" you are agreeing to have your information recorded and reviewed in order to be considered for employment, as well as having a driving record pulled.</p>
                 <div class="mb-6">
                     <button type="submit" class="bg-blue-400 text-white rounded py-2 px-4 hover:bg-blue-500">Submit</button>
                 </div>
