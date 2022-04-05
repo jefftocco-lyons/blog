@@ -15,7 +15,7 @@
     <section class="px-6 py-8">
         <nav class="md:flex md:justify-between md:items-center">
             <div>
-                <a href="/">
+                <a href="/landing">
                     Bullsnake Inc
                     {{-- <img src="/images//bullsnake.jpg" alt="Laracasts Logo" width="100" height="100" class="rounded-xl"> --}}
                 </a>
@@ -30,9 +30,6 @@
                   </li>
                   <li class="mr-3">
                     <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="/">Blog</a>
-                  </li>
-                  <li class="mr-3">
-                    <a class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4" href="apply">Apply</a>
                   </li>
                 </ul>
               </div>
@@ -57,6 +54,7 @@
 
 
                 @else
+                    <a href="/apply" class=" inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">Apply</a>
                     <a href="/register" class="inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">Register</a>
                     <a href="/login" class=" inline-block text-black no-underline hover:text-gray-800 hover:text-underline py-2 px-4">Log In</a>
                 @endguest
