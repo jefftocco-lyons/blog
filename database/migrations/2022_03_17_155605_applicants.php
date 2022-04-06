@@ -21,16 +21,7 @@ class Applicants extends Migration
             $table->string('phone_number');
             $table->string('email')->nullable();
             $table->string('home_address');
-            $table->string('preferred_hours_amount')->nullable();
-            $table->string('commute_preference')->nullable();
-            $table->string('valid_dot_card');
-            $table->string('availability');
-            $table->string('special_considerations');
-            $table->text('usps_experience');
-            $table->text('employment_history');
-            $table->text('criminal_history');
-            $table->text('driver_class');
-            $table->text('questions_for_employer');
+            $table->string('mailing_address');
         });
     }
 

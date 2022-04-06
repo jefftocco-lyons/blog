@@ -10,72 +10,39 @@
                 @csrf
                 <div class="flex flex-wrap -mx-3 mb">
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                        <x-form.input name="first_name" type="name" />
+                        <label class="block mb-2 uppercase font-bold text-xs text-gray-700">First Name</label>
+                        <x-form.input name="first_name" type="first_name" placeholder="First Name"/>
                     </div>
                     <div class="w-full md:w-1/2 px-3">
-                        <x-form.input name="last_name" type="name" />
+                        <label class="block mb-2 uppercase font-bold text-xs text-gray-700">Last Name</label>
+                        <x-form.input name="last_name" type="last_name" placeholder="Last Name" />
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3 mb">
                     <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                        <x-form.input name="phone_number" type="phone_number"/>
+                        <label class="block mb-2 uppercase font-bold text-xs text-gray-700">Phone Number</label>
+                        <x-form.input name="phone_number" type="phone_number" placeholder="(111)-222-3333"/>
                     </div>
                     <div class="w-full md:w-1/2 px-3">
-                        <x-form.input name="email" type="email"/>
+                        <label class="block mb-2 uppercase font-bold text-xs text-gray-700">Email</label>
+                        <x-form.input name="email" type="email" placeholder="joe@example.com"/>
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3">
                     <div class="w-full px-3">
-                        <x-form.input name="home_address" type="home_address"/>
-                    </div>
-                </div>
-                <div class="flex flex-wrap -mx-3 mb">
-                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                        <x-form.input name="preferred_hours_amount" type="name" />
-                    </div>
-                    <div class="w-full md:w-1/2 px-3">
-                        <x-form.input name="commute_preference" type="name" />
-                    </div>
-                </div>
-                <div class="flex flex-wrap -mx-3 mb">
-                    <div class="w-full md:w-1/2 px-3 mb-6 md:mb-0">
-                        <x-form.input name="valid_dot_card" type="valid_dot_card"/>
-                    </div>
-                    <div class="w-full md:w-1/2 px-3">
-                        <x-form.input name="availability" type="availability"/>
+                        <label class="block mb-2 uppercase font-bold text-xs text-gray-700">Home Address</label>
+                        <x-form.input name="home_address" type="home_address" placeholder="800 White St, Boston MA 02112"/>
                     </div>
                 </div>
                 <div class="flex flex-wrap -mx-3">
                     <div class="w-full px-3">
-                        <x-form.textarea class="h-20" name="special_considerations" type="special_considerations"/>
+                        <label class="block mb-2 uppercase font-bold text-xs text-gray-700">Mailing Address</label>
+                        <x-form.input name="mailing_address" type="mailing_address" placeholder="800 White St, Boston MA 02112"/>
                     </div>
                 </div>
-                <div class="flex flex-wrap -mx-3">
-                    <div class="w-full px-3">
-                        <x-form.textarea class="h-20" name="usps_experience" type="usps_experience"/>
-                    </div>
                 </div>
-                <div class="flex flex-wrap -mx-3">
-                    <div class="w-full px-3">
-                        <x-form.textarea class="h-20" name="employment_history" type="employment_history"/>
-                    </div>
-                </div>
-                <div class="flex flex-wrap -mx-3">
-                    <div class="w-full px-3">
-                        <x-form.input name="criminal_history" type="criminal_history"/>
-                    </div>
-                </div>
-                <div class="flex flex-wrap -mx-3">
-                    <div class="w-full px-3">
-                        <x-form.input name="driver_class" type="driver_class"/>
-                    </div>
-                </div>
-                <div class="flex flex-wrap -mx-3">
-                    <div class="w-full px-3">
-                        <x-form.textarea name="questions_for_employer" type="questions_for_employer"/>
-                    </div>
-                </div>
-                <p class="text-sm">By pressing "Submit" you are agreeing to have your information recorded and reviewed in order to be considered for employment, as well as having a driving record pulled.</p>
+                <p class="text-xs py-3">By pressing "Submit" you are agreeing to have your information recorded and reviewed in order to be considered for employment, as well as having a driving record pulled.</p>
+                <p class="text-xs py-3">After a successful submission, you will be redirected to the blog page. Our HR team will continue correspondence via email/phone using the information you provided to discuss the next steps, typically within 5-7 business days.</p>
                 <div class="mb-6">
                     <button type="submit" class="bg-blue-400 text-white rounded py-2 px-4 hover:bg-blue-500">Submit</button>
                 </div>
